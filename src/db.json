@@ -1,0 +1,74 @@
+{
+  "Bank": [
+    {
+      "id": 1,
+      "bankName": "SBI",
+      "baseCur": "INR",
+      "targetCur": "USD",
+      "amount": 2
+    },
+    {
+      "bankName": "BOB",
+      "baseCur": "BGN",
+      "targetCur": "INR",
+      "amount": 23,
+      "id": 2
+    },
+    {
+      "bankName": "AXIS",
+      "baseCur": "CZK",
+      "targetCur": "INR",
+      "amount": 21,
+      "id": 3
+    },
+    {
+      "bankName": "HDFC",
+      "baseCur": "GBP",
+      "targetCur": "RON",
+      "amount": 43,
+      "id": 4
+    },
+    {
+      "bankName": "ICICI",
+      "baseCur": "INR",
+      "targetCur": "EUR",
+      "amount": 12,
+      "id": 5
+    },
+    {
+      "bankName": "KOTAK",
+      "baseCur": "USD",
+      "targetCur": "EUR",
+      "amount": 44,
+      "id": 6
+    },
+    {
+      "bankName": "DENA",
+      "baseCur": "HUF",
+      "targetCur": "INR",
+      "amount": 212,
+      "id": 7
+    },
+    {
+      "bankName": "YES BANK",
+      "baseCur": "INR",
+      "targetCur": "USD",
+      "amount": 2,
+      "id": 8
+    },
+    {
+      "bankName": "PANJAB",
+      "baseCur": "USD",
+      "targetCur": "INR",
+      "amount": 5,
+      "id": 9
+    },
+    {
+      "bankName": "DENA",
+      "baseCur": "NOK",
+      "targetCur": "INR",
+      "amount": 6,
+      "id": 10
+    }
+  ]
+}

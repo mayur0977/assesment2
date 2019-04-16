@@ -1,0 +1,26 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">NO</th>
+        <th scope="col">BANK NAME</th>
+        <th scope="col">BASE CURRENCY</th>
+        <th scope="col">TARGET CURRENCY</th>
+        <th scope="col">AMOUNT</th>
+        <th scope="col">RATE</th>
+        <th scope="col">CONVERTED AMOUNT</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let bank of bankData">
+        <th scope="row">{{bank.id}}</th>
+        <td>{{bank.bankName}}</td>
+        <td>{{bank.baseCur}}</td>
+        <td>{{bank.targetCur}}</td>
+        <td>{{bank.amount}}</td>
+        <td>{{bank.curRate | number : '1.2'}}</td>
+        <td>{{bank.convertedAmount | number : '1.2'}} {{bank.targetCur}}</td>
+      </tr>
+      <tr>
+      
+    </tbody>
+  </table>
